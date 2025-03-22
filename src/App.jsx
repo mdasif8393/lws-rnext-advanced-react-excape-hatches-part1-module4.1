@@ -1,12 +1,10 @@
+import Form from "./Form";
 import "./App.css";
-import Counter from "./components/Counter";
 
-function App() {
+export default function App() {
   return (
     <>
-      <Counter />
+      <Form />
     </>
   );
 }
-
-export default App;
