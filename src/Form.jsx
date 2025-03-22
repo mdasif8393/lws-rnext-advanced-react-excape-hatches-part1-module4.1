@@ -5,6 +5,7 @@ export default function Form() {
   const inputRef = useRef(null);
 
   function handleClick() {
+    console.log(inputRef.current);
     inputRef.current.focus();
   }
 
