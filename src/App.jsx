@@ -1,12 +1,9 @@
-import Form from "./Form";
-import "./App.css";
-import Counter from "./components/Counter";
-import TodoList from "./components/ToDoList";
+import Comments from "./components/Comments";
 
 export default function App() {
   return (
-    <>
-      <TodoList />
-    </>
+    <div>
+      <Comments postId={4} />
+    </div>
   );
 }
